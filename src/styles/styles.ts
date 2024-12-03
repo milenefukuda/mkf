@@ -30,7 +30,6 @@ export const Styles = createGlobalStyle`
         background: #fff;
         overflow-x: hidden;
     }
-
     a:hover {
         color: #18216d;
     }

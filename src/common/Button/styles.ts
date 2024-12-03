@@ -21,5 +21,7 @@ export const StyledButton = styled("button")<{ color?: string }>`
     color: #fff;
     border: 1px solid rgb(255, 130, 92);
     background-color: rgb(255, 130, 92);
+    text-decoration: none !important;
+    outline: none !important;
   }
 `;

@@ -1,15 +1,35 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Nossas soluções e serviços",
+  "text": "",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Contabilidade",
+      "text": "",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Folha de Pagamento",
+      "text": "",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Abertura/Encerramento de Empresas",
+      "text": "",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Reestruturação e Reorganização Societária",
+      "text": "",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Imposto de Renda Pessoas Físicas",
+      "text": "",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Serviços nas Repartições Públicas e Autarquias",
+      "text": "",
       "icon": "notes.svg"
     }
   ]

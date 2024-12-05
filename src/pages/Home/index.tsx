@@ -37,7 +37,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="../office.jpg"
+        icon="../calculator.jpg"
         id="about"
       />
       <ContentBlock
@@ -51,7 +51,7 @@ const Home = () => {
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="../office.jpg"
         id="product"
       />
       <Contact

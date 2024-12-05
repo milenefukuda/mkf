@@ -3,11 +3,13 @@
   "text": "Simplifique suas rotinas contábeis e fiscais com a ajuda da nossa equipe de especialistas.",
   "button": [
     {
-      "title": "Quero abrir uma empresa"
+      "title": "Quero abrir uma empresa",
+      "targetId": "contact"
     },
     {
       "title": "Nossas soluções",
-      "color": "#fff"
+      "color": "#fff",
+      "targetId": "about"
     }
   ]
 }

@@ -37,7 +37,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
+        icon="../office.jpg"
         id="about"
       />
       <ContentBlock

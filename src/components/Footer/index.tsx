@@ -49,67 +49,70 @@ const Footer = ({ t }: { t: TFunction }) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contato")}</Language>
-              <Large to="/">{t("Conte-nos tudo")}</Large>
-              <Para>
-                {t(`Ficou com alguma dúvida? Entre em contato agora!.`)}
-              </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Vamos conversar`)}</Chat>
-              </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+          <Row
+            justify="space-between"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <Col
+              lg={10}
+              md={10}
+              sm={12}
+              xs={12}
+              style={{ display: "flex", flexDirection: "column" }}
+            >
               <Empty />
               <Language>{t("Endereço")}</Language>
               <Para>Av. Brigadeiro Luís Antônio, 2344</Para>
               <Para>Jardim Paulista, São Paulo - SP, 01402-000</Para>
               <Para>CRC/SP - 2SP027724/O - 0</Para>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
+            <Col
+              lg={10}
+              md={10}
+              sm={12}
+              xs={12}
+              style={{
+                display: "flex",
+                justifyContent: "flex-end",
+                alignItems: "center",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
+                <Label htmlFor="select-lang" style={{ marginBottom: "10px" }}>
+                  {t("Idiomas")}
+                </Label>
+                <LanguageSwitchContainer
+                  style={{ display: "flex", gap: "10px" }}
+                >
+                  <LanguageSwitch onClick={() => handleChange("en")}>
+                    <SvgIcon
+                      src="united-states.svg"
+                      aria-label="homepage"
+                      width="30px"
+                      height="30px"
+                    />
+                  </LanguageSwitch>
+                  <LanguageSwitch onClick={() => handleChange("es")}>
+                    <SvgIcon
+                      src="spain.svg"
+                      aria-label="homepage"
+                      width="30px"
+                      height="30px"
+                    />
+                  </LanguageSwitch>
+                </LanguageSwitchContainer>
+              </div>
             </Col>
           </Row>
         </Container>
       </FooterSection>
+
       <Extra>
         <Container border={true}>
           <Row

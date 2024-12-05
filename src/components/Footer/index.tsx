@@ -62,8 +62,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             >
               <Empty />
               <Language>{t("Endereço")}</Language>
-              <Para>Av. Brigadeiro Luís Antônio, 2344</Para>
-              <Para>Jardim Paulista, São Paulo - SP, 01402-000</Para>
+              <Para>Rua Abílio Soares, 227, Conjunto 102</Para>
+              <Para>Paraíso, São Paulo - SP, 04005-000</Para>
               <Para>CRC/SP - 2SP027724/O - 0</Para>
             </Col>
             <Col
@@ -120,7 +120,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            <NavLink to="/">
+            <NavLink to="contact">
               <LogoContainer>
                 <SvgIcon
                   src="logo.svg"

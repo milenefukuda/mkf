@@ -42,7 +42,17 @@ const ContentBlock = ({
           id={id}
           direction={direction}
         >
-          <Col lg={11} md={11} sm={12} xs={24}>
+          <Col
+            lg={11}
+            md={11}
+            sm={12}
+            xs={24}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>

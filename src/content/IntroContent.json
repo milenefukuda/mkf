@@ -1,15 +1,10 @@
 {
-  "title": "Tenha mais tempo para cuidar do seu negócio",
-  "text": "Simplifique suas rotinas contábeis e fiscais com a ajuda da nossa equipe de especialistas.",
+  "title": "Qual a situação atual da sua empresa?",
+  "text": "Obtenha segurança e tranquilidade com nossos serviços de diagnóstico especializado.",
   "button": [
     {
-      "title": "Quero abrir uma empresa",
+      "title": "Quero saber mais",
       "targetId": "contact"
-    },
-    {
-      "title": "Nossas soluções",
-      "color": "#fff",
-      "targetId": "about"
     }
   ]
 }
